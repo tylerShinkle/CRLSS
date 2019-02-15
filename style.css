@@ -1,0 +1,55 @@
+/*for x-small phones*/
+body{
+    background-image: url(images/xsBG.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center bottom;
+}
+
+header{
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+
+/*for small phones*/
+@media only screen and (min-width: 350px){
+    body{
+    background-image: url(images/sBG.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center bottom;
+    }
+    header{
+        font-size: 4em;
+    }
+}
+
+/*for medium phones*/
+@media only screen and (min-width: 400px){
+    body{
+    background-image: url(images/mBG.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center bottom;
+    }
+    header{
+    font-size: 4em;
+    }
+}
+
+/*for large phones / tablets / PC's*/
+@media only screen and (min-width: 600px){
+    body{
+    background-image: url(images/lBG.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center bottom;
+    }
+    header{
+    font-size: 6em;
+    }
+}
+
