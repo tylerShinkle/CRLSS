@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position:center bottom;
+    padding: none;
 }
 
 header{
@@ -13,6 +14,21 @@ header{
     font-size: 3em;
 }
 
+#musicTab{
+    width: 80%;
+    margin-top:1.25em;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: rgba(172, 172, 172, 0.74);
+    display: inline-block;
+}
+
+.wrapper{
+    width: 100%;
+    text-align: center;
+}
 
 /*for small phones*/
 @media only screen and (min-width: 350px){
@@ -25,6 +41,10 @@ header{
     header{
         font-size: 4em;
     }
+    #musicTab{
+        font-size:2em;
+    }
+    
 }
 
 /*for medium phones*/
@@ -37,6 +57,9 @@ header{
     }
     header{
     font-size: 4em;
+    }
+    #musicTab{
+    font-size:3em;
     }
 }
 
