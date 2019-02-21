@@ -29,6 +29,23 @@ header{
     position: relative;
 }
 
+#musicTab:hover{
+    background-color: rgba(95, 94, 94, 0.53);
+    color:black;
+}
+
+#musicContent{
+    width: 80%;
+    text-align: center;
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 2em;
+    background-color: rgba(136, 136, 136, 0.5);
+    display: none;
+    position: relative;
+    color:black;
+}
+
 .wrapper{
     width: 100%;
     text-align: center;
